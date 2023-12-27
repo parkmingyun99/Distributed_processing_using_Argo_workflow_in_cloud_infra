@@ -1,0 +1,342 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "spdlog",
+					"jsonFile" : "directory-spdlog-Debug-d69c2b3088863f15321d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "spdlog",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "Engine",
+					"jsonFile" : "directory-Engine-Debug-5a33bb95d3cb2d80b86d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Engine",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Shop",
+					"jsonFile" : "directory-Shop-Debug-24fae43b927f249412a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Shop",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "SimExec",
+					"jsonFile" : "directory-SimExec-Debug-7b9250f6a1a12b783ddc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "SimExec",
+					"targetIndexes" : 
+					[
+						4,
+						7
+					]
+				},
+				{
+					"build" : "OptExec",
+					"jsonFile" : "directory-OptExec-Debug-50436b21ba68fafaf475.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "OptExec",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"build" : "SimRunner",
+					"jsonFile" : "directory-SimRunner-Debug-d2a64a95c7d7f27ea495.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "SimRunner",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "json",
+					"jsonFile" : "directory-json-Debug-2f46b448dd35ba75d9e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "json"
+				},
+				{
+					"build" : "JobGenerator",
+					"jsonFile" : "directory-JobGenerator-Debug-c9bbc4a0005627759cf5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "JobGenerator",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CRWNN"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Engine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Shop",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "SimExec",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "OptExec",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SimRunner",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "JobGenerator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Engine::@8f69bdd092c897d92c1e",
+					"jsonFile" : "target-Engine-Debug-9671a86f9f8eea88bf29.json",
+					"name" : "Engine",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "JobGenerator::@418cdcc8e72488f7ea4c",
+					"jsonFile" : "target-JobGenerator-Debug-e087e87b0458926597b2.json",
+					"name" : "JobGenerator",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "OptExec::@98213a5cd989b23b107b",
+					"jsonFile" : "target-OptExec-Debug-721ef143abb9b6420659.json",
+					"name" : "OptExec",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Shop::@7a55dca07b48a1fe339d",
+					"jsonFile" : "target-Shop-Debug-0085e0109cc847aec584.json",
+					"name" : "Shop",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SimExec::@654a82905a0a5bf74510",
+					"jsonFile" : "target-SimExec-Debug-aa8f293a6fd126f37be6.json",
+					"name" : "SimExec",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SimRunner::@75fbe118f0bee1ca6559",
+					"jsonFile" : "target-SimRunner-Debug-e00fc448c74372b0ba7a.json",
+					"name" : "SimRunner",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "opt_exec_copy::@98213a5cd989b23b107b",
+					"jsonFile" : "target-opt_exec_copy-Debug-8a2596d7b6df01145ec9.json",
+					"name" : "opt_exec_copy",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sim_exec_copy::@654a82905a0a5bf74510",
+					"jsonFile" : "target-sim_exec_copy-Debug-3a10867c8a5a1643ad03.json",
+					"name" : "sim_exec_copy",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spdlog::@d269c8109d32a9027337",
+					"jsonFile" : "target-spdlog-Debug-f31bf7909d3c94a254d6.json",
+					"name" : "spdlog",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host",
+		"source" : "/home/moongi/tmp/tmp.CwIpsLD3WU"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

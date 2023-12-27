@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="spdlog"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ArgoPermGA\;CMake Files\Engine\;CMake Files\JobGenTest\;CMake Files\spdlog\;CMake Files\spdlog\cmake\;CMake Files\Shop\;CMake Files\SimExec\;CMake Files\OptExec\;CMake Files\json\;CMake Files\json\cmake\;CMake Files\SimRunner\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spdlog">
+				<Option output="/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/libspdlogd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 spdlog"/>
+					<CompileFile command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spdlog/fast">
+				<Option output="/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/libspdlogd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add directory="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 spdlog/fast"/>
+					<CompileFile command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/spdlog/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/async.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/async_logger-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/async_logger.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/common-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/common.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/backtracer-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/backtracer.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/circular_q.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/console_globals.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/file_helper-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/file_helper.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/fmt_helper.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/log_msg-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/log_msg.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/log_msg_buffer-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/log_msg_buffer.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/mpmc_blocking_q.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/null_mutex.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/os-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/os.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/periodic_worker-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/periodic_worker.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/registry-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/registry.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/synchronous_factory.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/tcp_client-windows.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/tcp_client.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/thread_pool-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/thread_pool.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/udp_client-windows.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/udp_client.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/details/windows_include.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bin_to_hex.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/args.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/chrono.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/color.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/compile.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/core.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/format-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/format.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/locale.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/os.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/ostream.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/printf.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/ranges.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/std.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/bundled/xchar.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/chrono.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/compile.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/fmt.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/ostr.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/ranges.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/std.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fmt/xchar.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/formatter.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/fwd.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/logger-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/logger.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/pattern_formatter-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/pattern_formatter.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/android_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/ansicolor_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/base_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/base_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/basic_file_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/basic_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/callback_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/daily_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/dist_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/dup_filter_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/hourly_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/kafka_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/mongo_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/msvc_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/null_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/ostream_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/qt_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/ringbuffer_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/rotating_file_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/stdout_color_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/stdout_sinks-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/stdout_sinks.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/syslog_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/systemd_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/tcp_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/udp_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/win_eventlog_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/wincolor_sink-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/sinks/wincolor_sink.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/spdlog-inl.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/spdlog.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/stopwatch.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/tweakme.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/include/spdlog/version.h">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/src/async.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/src/bundled_fmtlib_format.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/src/cfg.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/src/color_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/src/file_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/src/spdlog.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/src/stdout_sinks.cpp">
+			<Option target="spdlog"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/ArgoPermGA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ArgoPermGA\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/JobGenTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JobGenTest\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/Shop/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Shop\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/SimExec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SimExec\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/OptExec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OptExec\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\json\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/json/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\json\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/json/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\json\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/json/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\json\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/SimRunner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SimRunner\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
