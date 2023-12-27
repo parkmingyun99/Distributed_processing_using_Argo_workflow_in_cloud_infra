@@ -1,0 +1,7 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" -S /home/moongi/tmp/tmp.CwIpsLD3WU -B /home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-release-remote-host
+-- Build spdlog: 1.12.0
+-- Build type: Release
+-- Using the multi-header code from /home/moongi/tmp/tmp.CwIpsLD3WU/json/include/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-release-remote-host
