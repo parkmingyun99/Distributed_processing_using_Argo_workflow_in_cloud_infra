@@ -1,0 +1,48 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Workflow
+metadata:
+  generateName: automatic-test-
+spec:
+  entrypoint: main
+  volumes:
+  - name: shared-data
+    hostPath:
+      path: /home/share/
+  templates:
+  - name: main
+    dag:
+      tasks:
+      - name: execute-argooptexec-0
+        template: argooptexec-0
+      - name: execute-simrunner-0-0
+        template: simrunner-0-0
+        dependencies: ["execute-argooptexec-0"]
+							⋮
+      - name: execute-simrunner-0-7
+        template: simrunner-0-7
+        dependencies: ["execute-argooptexec-0"]
+  - name: argooptexec-0
+    container:
+      image: argoSimulationModel:latest
+      command: ["sh", "-c"]
+      args: ["/app/bin/ArgoOptExec 0"]
+      volumeMounts:
+      - name: shared-data
+        mountPath: /etc/
+  - name: simrunner-0-0
+    container:
+      image: argoSimulationModel:latest
+      command: ["sh", "-c"]
+      args: ["/app/bin/SimRunner 0"]
+      volumeMounts:
+      - name: shared-data
+        mountPath: /etc/
+							⋮
+  - name: simrunner-0-7
+    container:
+      image: argoSimulationModel:latest
+      command: ["sh", "-c"]
+      args: ["/app/bin/SimRunner 7"]
+      volumeMounts:
+      - name: shared-data
+        mountPath: /etc/
