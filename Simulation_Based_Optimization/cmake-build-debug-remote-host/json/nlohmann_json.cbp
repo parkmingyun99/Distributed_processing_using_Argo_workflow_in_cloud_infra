@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nlohmann_json"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ArgoPermGA\;CMake Files\Engine\;CMake Files\JobGenTest\;CMake Files\spdlog\;CMake Files\spdlog\cmake\;CMake Files\Shop\;CMake Files\SimExec\;CMake Files\OptExec\;CMake Files\json\;CMake Files\json\cmake\;CMake Files\SimRunner\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/json"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/json/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/json/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/json/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j64 -f &quot;/home/moongi/tmp/tmp.CwIpsLD3WU/cmake-build-debug-remote-host/json/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/ArgoPermGA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ArgoPermGA\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Engine\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/JobGenTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JobGenTest\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/cmake/ide.cmake">
+			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/spdlog/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\spdlog\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/Shop/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Shop\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/SimExec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SimExec\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/OptExec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OptExec\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/json/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\json\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/json/cmake/config.cmake.in">
+			<Option virtualFolder="CMake Files\json\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/json/cmake/nlohmann_jsonConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\json\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/json/cmake/pkg-config.pc.in">
+			<Option virtualFolder="CMake Files\json\cmake\"/>
+		</Unit>
+		<Unit filename="/home/moongi/tmp/tmp.CwIpsLD3WU/SimRunner/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\SimRunner\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
